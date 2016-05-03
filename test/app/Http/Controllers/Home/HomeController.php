@@ -12,6 +12,11 @@ class HomeController extends Controller
     //
 public function index(){
 //  return view('welcome');
-return "test successful";
+return view("Home.index");
 }
+    public function welcome(){
+  return view('welcome');
+
+    }
+
 }
